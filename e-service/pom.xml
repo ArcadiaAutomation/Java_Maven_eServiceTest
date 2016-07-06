@@ -19,6 +19,18 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>      
     </dependency>
+    <dependency>
+    	<groupId>org.apache.poi</groupId>
+    	<artifactId>poi-ooxml</artifactId>
+    </dependency>
+    <dependency>
+    	<groupId>org.seleniumhq.selenium</groupId>
+    	<artifactId>selenium-java</artifactId>
+    </dependency>
+    <dependency>
+    	<groupId>io.appium</groupId>
+    	<artifactId>java-client</artifactId>
+    </dependency>
   </dependencies>
   <dependencyManagement>
   	<dependencies>
@@ -26,6 +38,21 @@
   			<groupId>junit</groupId>
   			<artifactId>junit</artifactId>
   			<version>4.11</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.apache.poi</groupId>
+  			<artifactId>poi-ooxml</artifactId>
+  			<version>3.14</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.seleniumhq.selenium</groupId>
+  			<artifactId>selenium-java</artifactId>
+  			<version>2.53.0</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>io.appium</groupId>
+  			<artifactId>java-client</artifactId>
+  			<version>4.0.0</version>
   		</dependency>
   	</dependencies>
   </dependencyManagement>
