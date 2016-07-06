@@ -22,8 +22,7 @@
     <dependency>
     	<groupId>com</groupId>
     	<artifactId>qtrf</artifactId>
-    	<type>pom</type>
-    	<version>1.0.0</version>
+    	<version>0.0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <dependencyManagement>
@@ -32,13 +31,6 @@
   			<groupId>junit</groupId>
   			<artifactId>junit</artifactId>
   			<version>4.11</version>
-  		</dependency>
-  		<dependency>
-  			<groupId>com</groupId>
-  			<artifactId>qtrf</artifactId>
-  			<version>1.0.0</version>
-  			<scope>import</scope>
-  			<type>pom</type>
   		</dependency>
   	</dependencies>
   </dependencyManagement>
